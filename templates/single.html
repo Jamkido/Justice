@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+
+
+{% extends 'base.html' %}
+
+
+{% block title %}Detail information{% endblock %}
+
+
+{% block content %}
+    <h1>{{ object_single.name }} ({{ object_single.id }})</h1>
+    {% if object_single.content %}
+        <p>{{ object_single.content }}</p>
+    {% endif %}
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+{% endblock %}

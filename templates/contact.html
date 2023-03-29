@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="untree_co-section bg-primary-dark py-5">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-7 pt-5 mt-5">
+                <h1 class="text-white heading" data-aos="fade-up" data-aos-delay="100">Contact <strong>Us</strong></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="untree_co-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <form class="contact-form" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="" for="fname">First name</label>
+                                <input type="text" class="form-control" id="fname">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="" for="lname">Last name</label>
+                                <input type="text" class="form-control" id="lname">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="email">Email address</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="message">Message</label>
+                        <textarea name="" class="form-control" id="message" cols="30" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
